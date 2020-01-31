@@ -17,7 +17,7 @@ function Lista(){
 }
 
 
-const FormContainer = () => {
+const App = () => {
 
     return (
         <div>
@@ -26,7 +26,7 @@ const FormContainer = () => {
     );
 };
 
-const wrapper = document.getElementById("create-article-form");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+const wrapper = document.getElementById("app");
+wrapper ? ReactDOM.render(<App />, wrapper) : false;
 
-export default FormContainer;
+export default App;
