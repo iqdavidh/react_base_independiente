@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 
 function Lista(){
-    const lista=['n1','n2'];
+    const lista=['n1','n2','b4'];
 
     const listaLi=lista.map( item=>{
         return <li>{item}</li>
